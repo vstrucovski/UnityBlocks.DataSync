@@ -75,7 +75,7 @@ namespace UnityBlocks.DataSync
             }
             else if (field.FieldType == typeof(ulong))
             {
-                if (double.TryParse(value, numberStyle, cultureInfo, out var parsedULong))
+                if (ulong.TryParse(value, numberStyle, cultureInfo, out var parsedULong))
                 {
                     field.SetValue(target, parsedULong);
                 }
@@ -122,7 +122,7 @@ namespace UnityBlocks.DataSync
             }
             else if (property.PropertyType == typeof(ulong))
             {
-                if (double.TryParse(value, numberStyle, cultureInfo, out var parsedULong))
+                if (ulong.TryParse(value, numberStyle, cultureInfo, out var parsedULong))
                 {
                     property.SetValue(target, parsedULong);
                 }
