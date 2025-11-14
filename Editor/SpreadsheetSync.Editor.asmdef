@@ -1,0 +1,18 @@
+{
+  "name": "SpreadsheetSync.Editor",
+  "rootNamespace": "",
+  "references": [
+    "GUID:fd51df570bfadc24d98ea30cdbe68560"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

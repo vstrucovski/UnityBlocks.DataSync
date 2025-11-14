@@ -1,0 +1,21 @@
+{
+  "name": "unityblocks.data-sync",
+  "displayName": "UnityBlocks.DataSync",
+  "version": "1.0.0",
+  "unity": "2022.2",
+  "description": "dev module",
+  "dependencies": {
+  },
+  "author": {
+    "name": "Valerii Strukovski"
+  },
+  "keywords": [
+    "script"
+  ],
+  "category": "editor extensions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vstrucovski/UnityBlocks.DataSync.git"
+  },
+  "type": "library"
+}
